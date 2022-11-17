@@ -44,6 +44,7 @@ const Footer = () => {
           <input type="email" placeholder="Enter your email address" />
           <button type="button">Subscribe</button>
         </div>
+        <p>Coded by Shabrina Putri.</p>
       </div>
 
     </div>
