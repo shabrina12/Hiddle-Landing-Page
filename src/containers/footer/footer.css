@@ -1,0 +1,115 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(192, 100%, 9%);
+}
+.footer-content {
+    color: white;
+    font-family: var(--font-body);
+}
+.footer-content-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.footer-content-logo h1 {
+    font-size: 44px;
+    font-family: var(--font-family);
+    margin-left: 0.6rem;
+}
+.footer-content-logo img {
+    width: 60px;
+    height: 40px;
+}
+
+.footer-content-p {
+    width: 60%;
+    line-height: 25px;
+}
+.footer-content-contact {
+    margin-top: 1.5rem;
+}
+.footer-content-contact p {
+    margin-top: 20px;
+}
+.footer-content-icons {
+    margin-top: 4rem;
+}
+.footer-content-icons .icon {
+    margin-right: 15px;
+    color: white;
+    size: 42;
+}
+.footer-content-newsletter {
+    height: 80px;
+    line-height: 80px; /* same as height! */
+}
+
+.footer-content-newsletter-input {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.footer-content-newsletter-input input{
+    width: 320px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    color: black;
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: white;
+    border: none;
+    outline: none;
+}
+.footer-content-newsletter-input button{
+    width: max-content;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: var(--color-pink);
+    padding: 0.9rem 3.2rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width: 1500px) {
+    .footer-content-newsletter-input {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-content-newsletter-input input{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .footer-content-p {
+        width: 100%;
+    } 
+} 
+
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer-content-newsletter-input {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .footer-content-newsletter-input input{
+        margin-right: 0;
+        margin-bottom: 1.2rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-content-newsletter-input input{
+        width: 85%;
+    }
+}

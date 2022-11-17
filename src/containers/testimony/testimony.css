@@ -1,0 +1,38 @@
+.testimony {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.testimony-content img {
+    width: 35px;
+}
+.testimony-content h1 {
+    font-size: 60px;
+    font-family: var(--font-body);
+}
+.testimony-content p {
+    font-family: var(--font-body);
+    text-align: center;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 650px) {
+    .testimony {
+        flex-direction: column;
+    }
+    .testimony-content {
+        margin-bottom: 5rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .testimony-content h1 {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .testimony-content h1 {
+        font-size: 40px;
+    }
+}
