@@ -1,4 +1,4 @@
-# Frontend Mentor - Hiddle landing page
+# Frontend Mentor Challenge - Hiddle landing page
 Responsive Front End Website using HTML, CSS, ReactJS
 
 Result: https://melodious-daffodil-d27254.netlify.app/ 
